@@ -1,5 +1,5 @@
 ## _Questão: Escreva um algoritmo de divisão-e-conquista O(n log n) para computar:_
-$$a^n$$ 
+## $$a^n$$ 
 ## _em que n é um inteiro positivo_
 
 
