@@ -42,7 +42,7 @@ $$ n = 2 ^ k, lg n = k$$
 
 ####Logo temos:
 
-$$T(n) = n *lgn$$
+$$T(n) = n * T(1)$$
 
-#### Ou seja o algoritmo ```Expotenial_DC``` é O(nlgn)
+#### Ou seja o algoritmo ```Expotenial_DC``` é O(n)
 
