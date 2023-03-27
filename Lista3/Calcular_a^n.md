@@ -1,4 +1,6 @@
-## _Questão: Escreva um algoritmo de divisão-e-conquista O(n log n) para computar: $$a^n$$ em que n é um inteiro positivo_
+## _Questão: Escreva um algoritmo de divisão-e-conquista O(n log n) para computar: 
+$$a^n$$ 
+## _em que n é um inteiro positivo_
 
 
 ### _Pseudo-Código:_
