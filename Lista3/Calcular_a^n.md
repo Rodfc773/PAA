@@ -22,7 +22,7 @@ else{
 
 T(n) = {
     1, se n == 1,<br>
-    2T(n/2) +  n, se n > 1
+    2T(n/2) +  1, se n > 1
 }
 
 
