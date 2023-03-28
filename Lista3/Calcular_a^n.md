@@ -20,12 +20,14 @@ else{
 ### Calculando a recorrência:
 
 
+
 $$ T(n) = \left\{ 
 \begin{array}{ll} 
 1, & \text{se } n = 1 \\ 
 2 \cdot T(\frac{n}{2}) +  1, & \text{se } n > 1 
 \end{array} 
 \right.$$
+
 $$T(n) = 2\cdot T(\frac{n}{2}) + 1 $$
 
 $$T(n/2) = 2 \cdot (2T(\frac{n}{4}) + 1) + 1 =  4T(\frac{n}{4}) + 3 $$
