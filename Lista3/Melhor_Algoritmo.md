@@ -3,16 +3,19 @@
 ### _Enunciado_:
 
 #### Suponha que esteja escolhendo entre os seguintestrês algoritmos:
+
 *  __Algoritmo A resolve problemas dividindo-os
 em cinco subproblemas de metade do tama-
 nho, solucionando cada subproblema recursi-
 vamente e, então, combinando as soluções em
-tempo linear.
-• Algoritmo B resolve problemas de tamanho n
+tempo linear.__
+
+• __Algoritmo B resolve problemas de tamanho n
 resolvendo recursivamente dois subproblemas
 de tamanho n − 1 e, então, combinando as so-
-luções em tempo constante.
-• Algoritmo C soluciona problemas de tamanho
+luções em tempo constante.__
+
+• __Algoritmo C soluciona problemas de tamanho
 n dividindo-os em nove subproblemas de ta-
 manho n/3, resolvendo recursivamente cada
 subproblema e, então, combinando as respos-
