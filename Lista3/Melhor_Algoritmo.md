@@ -25,7 +25,7 @@ tas em tempo O(n2) .__
 
 -->__Calculando primeiramente a recorrência do algoritma A__:
 
-$$ T(n) = \left\{ 
+$$T(n) = \left\{ 
 \begin{array}{ll} 
 1, & \text{se } n = 1 \\ 
 5 \cdot T(\frac{n}{2}) + , & \text{se } n > 1 
