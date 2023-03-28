@@ -150,3 +150,20 @@ $$T(\frac{n}{9}) = 81 \cdot (9 \cdot T(\frac{n}{27}) + n ^ 2) + 9n^2 + n^2 = 729
 -->__Formula geral__:
 
 $$T(\frac{n}{3^k}) = 9 ^k \cdot T(\frac{n}{3^k}) + \sum_{k=0}^{n} 9 ^{k - 1} \cdot n^2$$
+
+-->__Pelo caso base temos__:
+
+$$\frac{n}{3 ^k} = 1, n = 3 ^ k, k = \log_3 n $$
+
+--> __Simplificando__:
+
+$$ T(\frac{n}{3 ^ k}) = n ^{2} \cdot T(1) + \frac{-n^2 + 3 ^{2n + 1} + n ^ 2}{72}$$
+
+--> __Conclusao__:
+
+* O algoritmo C possui complexidade de tempo Exponencial:
+
+$$ O(3 ^{2n})$$
+
+
+* Logo o algoritmo escolhido será o algorimto A, pois possui complexidade O(n log n) que é a complexidade mais eficientes dentre os 3 algorimtos.
