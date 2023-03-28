@@ -21,7 +21,8 @@ else{
 
 
 
-$$ T(n) = \left\{ 
+$$ 
+T(n) = \left\{ 
 \begin{array}{ll} 
 1, & \text{se } n = 1 \\ 
 2 \cdot T(\frac{n}{2}) +  1, & \text{se } n > 1 
