@@ -36,7 +36,7 @@ $$ T(n/4) = 4 * (2 * T(n/8) + 1) + 3 = 8T(n/8) + 7$$
 * 
 * 
 * 
-$$ T(n / k) = 2^k T(n / 2^k)$$
+$$ T(n / k) = 2^k T(n / 2^k) + 2 ^k - 1$$
 
 #### Resolsvendo o caso base temos:
 
@@ -45,7 +45,7 @@ $$ n = 2 ^ k, lg n = k$$
 
 ####Logo temos:
 
-$$T(n) = n * T(1)$$
+$$T(n) = n * T(1) + n - 1$$
 
 #### Ou seja o algoritmo ```Expotenial_DC``` é O(n)
 
