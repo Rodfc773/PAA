@@ -21,7 +21,7 @@ tas em tempo O(n ^ 2) .__
 #### Qual o tempo de execução de cada um desses algoritmos (em notação O) e qual você escolheria?
 
 
-####Resposta:
+#### Resposta:
 
 #### _Calculando primeiramente a recorrência do algoritmo A_:
 
@@ -80,7 +80,7 @@ $$ T(\frac{n}{2 ^ k}) = 5 ^{\log_2 n} \cdot 1 + (\frac{2}{5})  \cdot n ^ {log_2 
 
 -------------
 
-####Calculando a recorrência para o Algorimto B:
+#### Calculando a recorrência para o Algorimto B:
 
 
 
