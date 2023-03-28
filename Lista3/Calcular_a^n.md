@@ -26,22 +26,23 @@ T(n) = {
 }
 
 
-$$ T(n) = 2T(n/2) + 1 $$
+$$ T(n) = 2T(\frac{n}{2}) + 1 $$
 
-$$ T(n/2) = 2 * (2T(n/4) + 1) + 1 == 4T(n/4) + 3 $$
+$$ T(n/2) = 2 * (2T(\frac{n}{4}) + 1) + 1 =  4T(\frac{n}{4}) + 3 $$
 
-$$ T(n/4) = 4 * (2 * T(n/8) + 1) + 3 = 8T(n/8) + 7$$
+$$ T(n/4) = 4 * (2 * T(\frac{n}{8}) + 1) + 3 = 8T(frac{n}{8}) + 7$$
 
 * 
 * 
 * 
 * 
-$$ T(n / k) = 2^k T(n / 2^k) + 2 ^k - 1$$
+$$ T(\frac{n}{k}) = 2^k T(\frac{n}{2^k}) + 2 ^k - 1$$
 
 #### Resolsvendo o caso base temos:
 
-$$ n/2^k = 1$$
-$$ n = 2 ^ k, lg n = k$$
+$$ \frac{n}{2^k} = 1$$
+
+$$ n = 2 ^ k, \log_2 n = k$$
 
 ####Logo temos:
 
