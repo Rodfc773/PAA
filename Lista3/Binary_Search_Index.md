@@ -62,15 +62,17 @@ Provado!!!
 
 seja a recorrência:
 
-T(n) = { 1, se n = 1
-T(n/2) + 1, se n > 1
+$$ T(n) = \left\{ 
+\begin{array}{ll} 
+1, & \text{se } n = 1 \\ 
+T(\frac{n}{2}) +  1, & \text{se } n > 1 
+\end{array} 
+\right.$$
 
-
+------
 $$ T(n) = T(n/2) + 1$$
 
 $$T(n/2) = T(n/4) + 1 + 1 = T(n/4) + 2$$
-
-<br>
 
 $$ T(n/4) = T(n/8) + 1 + 1 + 1 = T(n/8) + 3 $$
 

@@ -1,7 +1,9 @@
 
+##Questão 2)
+
 ##Enunciado:
 
-###
+#### Existem n panquecas, todas de tamanhos diferentes, empilhadas umas sobre as outras. Você pode colocar uma espátula sob uma das panquecas e virar apilha inteira acima da espátula. O objetivo é arranjar as panquecas de acordo com o tamanho, com a maior na parte inferior. 
 
 
 ###Projetando o algoritmo:
@@ -34,23 +36,25 @@ T(n): {
 }
 
 
-T(n): n + T(n-1)
+$$T(n) =  n + T(n-1)$$
 
-T(n - 1): n + n - 1 + T(n - 2)
-T(n - 2): n + n - 1+ n - 2 + T(n - 3)
-T(n - 3): n + n -1 + n - 2+ n -3  + T(n - 4)
+$$T(n - 1) = n + n - 1 + T(n - 2) $$
+
+$$T(n - 2)=  n + n - 1+ n - 2 + T(n - 3)$$
+
+$$T(n - 3): n + n -1 + n - 2+ n -3  + T(n - 4)$$
 
 *
 *
 *
 *
-T(n - i) = 
 
-$$\left( \sum_{i=0}^n n - i \right) + t(n-i)$$
+$$T(n - i) = 
+\left( \sum_{i=0}^n n - i \right) + t(n-i)$$
 
 Pelo caso base temos que: n - i = 1, logo
 
-$$ (n(n - 1))/2 + T(1)$$
+$$ \frac{n * (n - 1)}{2} + T(1)$$
 
 Ou seja o algorimto possui no pior caso:
 
