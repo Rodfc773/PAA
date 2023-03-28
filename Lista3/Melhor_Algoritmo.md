@@ -16,19 +16,19 @@ luções em tempo constante.
 n dividindo-os em nove subproblemas de ta-
 manho n/3, resolvendo recursivamente cada
 subproblema e, então, combinando as respos-
-tas em tempo O(n2) .__
+tas em tempo O(n ^ 2) .__
 
 #### Qual o tempo de execução de cada um desses algoritmos (em notação O) e qual você escolheria?
 
 
 ####Resposta:
 
--->__Calculando primeiramente a recorrência do algoritma A__:
+#### _Calculando primeiramente a recorrência do algoritmo A_:
 
 $$T(n) = \left\{ 
 \begin{array}{ll} 
 1, & \text{se } n = 1 \\ 
-5 \cdot T(\frac{n}{2}) + , & \text{se } n > 1 
+5 \cdot T(\frac{n}{2}) + \space n, & \text{se } n > 1 
 \end{array} 
 \right.$$
 
@@ -53,3 +53,35 @@ $$T(\frac{n}{2^k}) = 5^k \cdot T(\frac{n}{2 ^ k}) + \frac{5^{k - 1}}{2 ^{k -1}} 
 --------
 
 --> __Pelo caso base temos:__
+
+$$ \frac{n}{2 ^ k} = 1, n = 2^k, \log_2n = k$$
+
+-------
+
+--> __Usando um pouco de manipulação algebrica temos:__
+
+
+$$ T(\frac{n}{2 ^ k}) = 5 ^{\log_2 n} \cdot T(1) + (\frac{5}{2}) ^ {\log_2 n - 1}  \cdot n$$
+
+*
+*
+$$ T(\frac{n}{2 ^ k}) = 5 ^{\log_2 n} \cdot 1 + (\frac{(\frac{5}{2}) ^ {\log_2 n}}{\frac{5}{2}})  \cdot n$$
+
+* 
+*
+$$ Sabemos \space que: \space a^{\log_b(c)} = c^{\log_b(a)}$$
+
+*
+*
+$$ T(\frac{n}{2 ^ k}) = 5 ^{\log_2 n} \cdot 1 + (\frac{2}{5})  \cdot n ^ {log_2 (5)}$$
+
+
+--> Ou seja, T(n) é O(n log n)
+
+-------------
+
+####Calculando a recorrência para o Algorimto B:
+
+
+
+
