@@ -21,8 +21,7 @@ else{
 
 
 
-$$ 
-T(n) = \left\{ 
+$$ T(n) = \left\{ 
 \begin{array}{ll} 
 1, & \text{se } n = 1 \\ 
 2 \cdot T(\frac{n}{2}) +  1, & \text{se } n > 1 
@@ -47,7 +46,7 @@ $$ \frac{n}{2^k} = 1$$
 
 $$ n = 2 ^ k, \log_2 n = k$$
 
-####Logo temos:
+#### Logo temos:
 
 $$T(n) = n \cdot T(1) + n - 1$$
 
