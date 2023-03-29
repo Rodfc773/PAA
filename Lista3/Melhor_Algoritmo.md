@@ -104,7 +104,7 @@ $$T(n - 2) = 4 \cdot(2 \cdot T(n-3) + 1) + 2 + 1 = 8 \cdot T(n-3) + 4 + 2 + 1$$
 *
 *
 *
-$$T(n - k) = 2 ^k \cdot T(n - k) + \sum_{k=0}^{n} 2 ^{k - 1}$$
+$$T(n - k) = 2 ^k \cdot T(n - k) + \sum_{k=1}^{n} 2 ^{k - 1}$$
 
 --> __Pelo caso base temos__:
 
@@ -149,7 +149,7 @@ $$T(\frac{n}{9}) = 81 \cdot (9 \cdot T(\frac{n}{27}) + n ^ 2) + 9n^2 + n^2 = 729
 
 -->__Formula geral__:
 
-$$T(\frac{n}{3^k}) = 9 ^k \cdot T(\frac{n}{3^k}) + \sum_{k=0}^{n} 9 ^{k - 1} \cdot n^2$$
+$$T(\frac{n}{3^k}) = 9 ^k \cdot T(\frac{n}{3^k}) + \sum_{k=1}^{n} 9 ^{k - 1} \cdot n^2$$
 
 -->__Pelo caso base temos__:
 
