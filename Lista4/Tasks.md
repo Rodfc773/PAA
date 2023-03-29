@@ -25,7 +25,7 @@ Procedure greedy_tasks(tasks[])
 
         if (S = {})
 
-            S = S U {task}
+            S = S U(union) {task}
             tasks = tasks - {task}.
 
         else
@@ -34,6 +34,9 @@ Procedure greedy_tasks(tasks[])
 
                 S = S U {task}
                 tasks = tasks - {task}.
+            else
+
+                tasks = tasks - {task}
 
 
     return S;
