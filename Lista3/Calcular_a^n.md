@@ -10,10 +10,10 @@ Procedure Exponetial_DC(a, n)
 if (n == 0) return 1;
 else if(n & 1){
 
-    return a * Exponetial_DC(a, n/2) * Expotenial(a/2)
+    return a * Exponetial_DC(a, n/2) * Exponetial_DC(a/2)
 }
 else{
-    return Exponetial_DC(a, n/2) * Expotenial(a, n/2)
+    return Exponetial_DC(a, n/2) * Exponetial_DC(a, n/2)
 }
 
 ```
