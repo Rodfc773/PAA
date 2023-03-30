@@ -15,30 +15,18 @@ __Considere o problema de agendamento de intervalos. Nós temos um conjunto de a
 ## Pseudo-código:
 
 ```
-Procedure greedy_tasks(tasks[])
+Procedure greedy_tasks(tasks[1.....n],s[], f[])
 
-    S = {}
+    S = {tasks[1]}
 
-    while tasks != {} && !solution(S)
+   i = 1
+   for  m = 2 ->  n
 
-        task = select_min_fi(tasks)
+    if(s[m] > f[i]){
 
-        if (S = {})
-
-            S = S U(union) {task}
-            tasks = tasks - {task}.
-
-        else
-
-            if(o tempo de inicio de task for maior ou igual ao tempo de término da ultima atividade adicionado em S)
-
-                S = S U {task}
-                tasks = tasks - {task}.
-            else
-
-                tasks = tasks - {task}
-
-
+        S = S U(union) tasks[m]
+        i = m
+    }
     return S;
 
 ```

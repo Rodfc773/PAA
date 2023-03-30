@@ -11,5 +11,9 @@ __Considere o seguinte problema.__
 ## Pseudo-código:
 
 ```
+Procedure AGM_U(Grafo G = (V, E), subconjunto U)
 
+    S = {}
+
+    while |S| = 
 ```
