@@ -6,7 +6,7 @@ __Considere o problema de agendamento de intervalos. Nós temos um conjunto de a
 
 ## Resposta:
 
-* __Suponha inicialmente um pré-processamento em que ordene o conjunto de atividades pelo tempo de término(fi), e uma função ```solution``` que verifica se a solução é válida e uma função chamada ```select_min_fi``` que pega a atividade de menor término no conjunto de tarefas.__
+* __Suponha inicialmente um pré-processamento em que ordene o conjunto de atividades pelo tempo de término(fi),o qual e o vetor ```f[]```.__
 
 * __Logo temos o seu Pseudo-código abaixo:__
 
