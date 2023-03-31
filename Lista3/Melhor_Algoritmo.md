@@ -2,7 +2,7 @@
 
 ### _Enunciado_:
 
-#### Suponha que esteja escolhendo entre os seguintestrês algoritmos:
+S#### Suponha que essteja escolhendo entre os seguintestrês algoritmos:
 
 * __Algoritmo A resolve problemas dividindo-os
 em cinco subproblemas de metade do tama-
