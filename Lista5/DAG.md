@@ -10,17 +10,21 @@ __Projete um algoritmo eficiente para encontrar o comprimento do caminho mais lo
 ### Pseudo-código:
 
 ```
-procedure solve_DAG_parallel(Grafo G(Direcionado))
-
- 
-    minimum_distances = array[G.num_vertices]
-
-    destination = G.destino
-
-    for i = 0 -> G.num_vertices-1:
-        minimum_distances[i] = solve_DAG_recursive(G, i, destination)
+def longest_path_dag(graph, weights):
+   
+    topo_order = topological_sort(graph)
     
-    return minimum_distances[origem]
+   
+    dist = [0] + [-float('inf')] * (len(graph) - 1)
     
-end procedure
+   
+    for v in topo_order:
+        for u in graph[v]:
+           
+            new_dist = dist[u] + weights[(u,v)]
+            if new_dist > dist[v]:
+                dist[v] = new_dist
+
+    return max(dist)
+
 ```
