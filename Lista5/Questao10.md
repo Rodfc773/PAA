@@ -13,7 +13,7 @@ Procedure CaminhosMax-DP(Graph G(V,E), s , t)
 
     topo = topological_sort(G) // organiza os vertices em ordem topologica utilizando o algoritmo de kahn
 
-    dist = crie uma lista com tamanho igual a quantidade de  vertices em G, e inicialize as posições com -1 * infinito
+    dist = crie uma lista com tamanho igual a quantidade de  vertices em G, e inicialize as posições com -inf(menos infinito)
 
     dist[s] = 0
 
@@ -24,3 +24,10 @@ Procedure CaminhosMax-DP(Graph G(V,E), s , t)
 
     retorne dist[t]
 ```
+Complexidade de tempo:
+
+$$ O(|V|+|E|)$$
+
+Complexidade memória:
+
+$$ O(|V|) $$
