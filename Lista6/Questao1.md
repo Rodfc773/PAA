@@ -14,6 +14,6 @@ Procedure NumeroFaltando(A[])
     B = crie um array de tamanho (n-1) + 1 cotendo numeros de 1 a n sem repetições
 
     elemento = faça a diferença(operação de conjuntos) do conjunto A em relação a ao Conjunto B de forma eficiente(Utilizando o operador XOR)
-s
+
     retorne elemento;
 ```
