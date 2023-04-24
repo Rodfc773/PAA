@@ -6,4 +6,4 @@ O Rei Arthur espera n cavaleiros para um jantar anual em Camelot. Infelizmente, 
 
 ## Resposta:
 
-- __Um problema que pode ser usado para modelar a tarefa de Arthur é o de coloração de um grafo com duas cores distintas, colorindo os cavaleiros que representariam os vértices do grafo, em que os cavaleiros que posuissem inimizades entre si, não ficassem adjacentes, caso não seja possível colorir o grafo com duas cores de forma que cada cavaleiro que possua inimizades não fique adjacente a um inimigo quer dizer que não existe arranjo que satisfaça as restrições de arthur__
+- __Um problema que pode ser usado para modelar a tarefa de Arthur é o de coloração de um grafo com cores distintas, colorindo os cavaleiros que representariam os vértices do grafo, em que os cavaleiros que posuissem inimizades entre si seriam pintados com as mesmas cores, não ficassem adjacentes, caso não seja possível colorir o grafo de forma que cada cavaleiro que possua inimizades não fique adjacente a um inimigo quer dizer que não existe arranjo que satisfaça as restrições de arthur__

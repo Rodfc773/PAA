@@ -6,14 +6,14 @@ Maria aposta com João que ela pode fazer o seguinte truque. João recitará n �
 
 ## Resposta:
 
-- Considere que a entrada seja um array A de tamanho n-1 contendo numeros de 1 a n
 
 ```
-Procedure NumeroFaltando(A[])
+Procedure NumeroFaltando(int n)
 
-    B = crie um array de tamanho (n-1) + 1 cotendo numeros de 1 a n sem repetições
+    int sum_Joao = soma dos numeros ditos por joao
+    int sum_Maria = soma dos numeros de 1 até n
 
-    elemento = faça a diferença(operação de conjuntos) do conjunto A em relação a ao Conjunto B de forma eficiente(Utilizando o operador XOR)
+    num = sum_maria - sum_joao
 
-    retorne elemento;
+    retorne num;
 ```
